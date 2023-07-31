@@ -5,21 +5,18 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Title EditText -->
     <EditText
         android:id="@+id/editTextTitle"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:hint="Enter Title" />
 
-    <!-- Description EditText -->
     <EditText
         android:id="@+id/editTextDescription"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:hint="Enter Description" />
 
-    <!-- Buttons (e.g., Save and Cancel) -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
